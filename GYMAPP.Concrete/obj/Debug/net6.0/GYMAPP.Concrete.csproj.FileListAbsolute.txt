@@ -1,0 +1,12 @@
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\bin\Debug\net6.0\GYMAPP.Concrete.deps.json
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\bin\Debug\net6.0\GYMAPP.Concrete.dll
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\bin\Debug\net6.0\ref\GYMAPP.Concrete.dll
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\bin\Debug\net6.0\GYMAPP.Concrete.pdb
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.csproj.AssemblyReference.cache
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.AssemblyInfoInputs.cache
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.AssemblyInfo.cs
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.csproj.CoreCompileInputs.cache
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.dll
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\ref\GYMAPP.Concrete.dll
+D:\Personal Project\GYMAPP\GYMAPP.Concrete\obj\Debug\net6.0\GYMAPP.Concrete.pdb

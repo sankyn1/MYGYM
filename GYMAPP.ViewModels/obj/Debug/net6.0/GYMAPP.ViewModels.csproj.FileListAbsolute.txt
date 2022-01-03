@@ -1,0 +1,11 @@
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\bin\Debug\net6.0\GYMAPP.ViewModels.deps.json
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\bin\Debug\net6.0\GYMAPP.ViewModels.dll
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\bin\Debug\net6.0\ref\GYMAPP.ViewModels.dll
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\bin\Debug\net6.0\GYMAPP.ViewModels.pdb
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\GYMAPP.ViewModels.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\GYMAPP.ViewModels.AssemblyInfoInputs.cache
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\GYMAPP.ViewModels.AssemblyInfo.cs
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\GYMAPP.ViewModels.csproj.CoreCompileInputs.cache
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\GYMAPP.ViewModels.dll
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\ref\GYMAPP.ViewModels.dll
+D:\Personal Project\GYMAPP\GYMAPP.ViewModels\obj\Debug\net6.0\GYMAPP.ViewModels.pdb

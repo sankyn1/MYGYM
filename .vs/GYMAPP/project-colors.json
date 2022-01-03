@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "356b90fb-6f2d-4b77-8cb6-980b8d00e425": {
+      "ProjectGuid": "356b90fb-6f2d-4b77-8cb6-980b8d00e425",
+      "DisplayName": "GYMAPP",
+      "ColorIndex": 0
+    },
+    "b9bbea06-b8b4-4a06-8769-4a041527726f": {
+      "ProjectGuid": "b9bbea06-b8b4-4a06-8769-4a041527726f",
+      "DisplayName": "GYMAPP.Concrete",
+      "ColorIndex": 1
+    },
+    "7d5e4e0f-e63b-4561-94b5-880f2b5aead3": {
+      "ProjectGuid": "7d5e4e0f-e63b-4561-94b5-880f2b5aead3",
+      "DisplayName": "GYMAPP.Interface",
+      "ColorIndex": 2
+    },
+    "8d008190-0349-46a8-8c5e-2155d0adb979": {
+      "ProjectGuid": "8d008190-0349-46a8-8c5e-2155d0adb979",
+      "DisplayName": "GYMAPP.Models",
+      "ColorIndex": 3
+    },
+    "7956f915-5035-4f0b-8b09-567af653f4cc": {
+      "ProjectGuid": "7956f915-5035-4f0b-8b09-567af653f4cc",
+      "DisplayName": "GYMAPP.ViewModels",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
