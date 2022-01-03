@@ -1,4 +1,8 @@
-﻿namespace GYMAPP.Concrete
+﻿using GYMAPP.Interface;
+using System.Data;
+using System.Data.SqlClient;
+
+namespace GYMAPP.Concrete
 {
     public class UsersConcrete : IUsers
     {

@@ -1,6 +1,12 @@
-﻿namespace GYMAPP.Concrete
+﻿using GYMAPP.Interface;
+
+namespace GYMAPP.Concrete
 {
-    internal class Configuration: IConfiguration
+    public class Configuration : IConfiguration
     {
+        public string GetConnection()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
