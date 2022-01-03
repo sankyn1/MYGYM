@@ -1,4 +1,6 @@
-﻿using GYMAPP.Interface;
+﻿using Dapper;
+using GYMAPP.Interface;
+using GYMAPP.Models;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -6,14 +8,24 @@ namespace GYMAPP.Concrete
 {
     public class UsersConcrete : IUsers
     {
-        public bool AuthenticateUsers(string username, string password)
+        private readonly IAppConfiguration _appConfiguration;
+
+        public UsersConcrete(IAppConfiguration appConfiguration)
         {
-            using (SqlConnection connection = new SqlConnection(connectionString))
+            _appConfiguration = appConfiguration;
+        }
+
+        public Users AuthenticateUsers(string username, string password)
+        {
+            using (SqlConnection connection = new SqlConnection(_appConfiguration.GetConnectionString()))
             {
-                var result = cnn.Query<Data>("spGetData", new { Id = 1 },
-                commandType: CommandType.StoredProcedure);
+                DynamicParameters parameters = new DynamicParameters();
+                parameters.Add("@Email", username);
+                parameters.Add("@Password", password);
+
+                var loginUserData = SqlMapper.Query<Users>(connection, "UserLogin", param: parameters, commandType: CommandType.StoredProcedure).FirstOrDefault();
+                return loginUserData;
             }
-            return result > 0 ? true : false;
         }
     }
 }
