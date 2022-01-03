@@ -1,14 +1,4 @@
-﻿using Dapper.Contrib.Extensions;
-using GYMAPP.Interface;
-using GYMAPP.Models;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace GYMAPP.Concrete
+﻿namespace GYMAPP.Concrete
 {
     public class UsersConcrete : IUsers
     {
@@ -16,11 +6,10 @@ namespace GYMAPP.Concrete
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-               
-                var myEvent = connection.get<Users>(username, password);
+                var result = cnn.Query<Data>("spGetData", new { Id = 1 },
+                commandType: CommandType.StoredProcedure);
             }
             return result > 0 ? true : false;
-
         }
     }
 }
